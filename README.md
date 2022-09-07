@@ -1,3 +1,3 @@
 # My-Fullstack-Cheat-sheet
 
-La idea de este repositorio es puramente con fines de practica para mi, no tiene intenciones de ser ejemplo educativo.
+The idea of ​​this repository is purely for practice purposes, it is not intended to be an educational example, it was just made as a help for me.
