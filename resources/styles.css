@@ -5,11 +5,13 @@ body {background: white;
     text-align: left; color: #A9792B;}
 
 
-h1 {color: #A9792B; text-align: center; font-family:'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold; 
-text-decoration: underline solid #A9792B;}
+
+
+h1 {color: white; text-align: center; font-family:'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold; 
+text-decoration: underline solid #A9792B; background-color: #008F9C}
 
 p {color: black; font-family:'Open Sans', 'Helvetica Neue', sans-serif;}
-h3 {color: #A9792B; font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+h3 {color: #008F9C; font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: underline solid #A9792B;
      font-weight: bold;}
 h5 { color: #A9792B; 
@@ -20,7 +22,7 @@ h2 {font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue
 
 
 img {align-self: center;}
-    .logo {height: auto; width: 100px;}
+    .logo {height: auto; width: 100px; display: block; margin-left: auto; margin-right: auto;}
 
 
 
@@ -30,10 +32,14 @@ li {color: #A9792B; font-weight: bold; font-family: system-ui, -apple-system, Bl
 
 
 .myButton {
-    color: white; font-size: 22px; line-height: 22px; padding: 6px; border-radius: 5px; font-family:'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none;background: #0F766E ; display: inline-block; border: 2px solid #0F766E; width: 17%;
+    color: white; font-size: 22px; line-height: 22px; padding: 6px; border-radius: 5px; font-family:'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none;background: #008F9C ; display: inline-block; border: 2px solid #0F766E; width: 17%;
     table-layout: fixed;
-    border-collapse: collapse;}
+    border-collapse: collapse; text-align: center;}
     .myButton:hover {
     color: white;background-color: #A9792B; border: 2px solid #A9792B; }
     .myButton:active {
     background: #3F3D3E; }
+
+footer{
+    position: fixed; left: 0; right: 0; width: 100%; background-color: #008F9C; color: #A9792B;font-size:30px; text-align: center; font-family: Arial, Helvetica, sans-serif; }
+    
